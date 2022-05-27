@@ -19,7 +19,7 @@ class Game {
 
   // Define methods
   randomizer() {
-    return Math.trunc(Math.random() * 20) + 1;
+    return Math.trunc(Math.random() * 1000) + 1;
   }
 
   winTheGame() {
