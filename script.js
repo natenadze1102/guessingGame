@@ -69,7 +69,7 @@ class Game {
 
   restartGame() {
     this.check.addEventListener('click', this.startGame);
-    this.score.innerHTML = 20;
+    this.score.innerHTML = 1000;
     this.highScore.innerHTML = 0;
     document.body.style.backgroundColor = '#222';
     this.message.innerHTML = 'Start guessing...⏳';
